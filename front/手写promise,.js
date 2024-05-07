@@ -50,3 +50,15 @@ class Promise {
     }
   }
 }
+
+const promise = new Promise((resolve, reject) => {
+    resolve('成功');
+  }).then(
+    (data) => {
+      console.log('success', data)
+    },
+    (err) => {
+      console.log('faild', err)
+    }
+  )
+  
