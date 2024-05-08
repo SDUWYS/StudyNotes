@@ -1,3 +1,11 @@
+/**
+ * @param {number[]} num
+ * @param {number} k
+ * @return {number[]}
+ * 输入：num = [1,2,0,0], k = 34
+ * 输出：[1,2,3,4]
+ * 解释：1200 + 34 = 1234
+ */
 let addToArrayForm  = function(num, k){
     let res = [];
     let n = num.length;
